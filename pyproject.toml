@@ -1,0 +1,22 @@
+[project]
+name = "geostradamus"
+version = "0.1.0"
+description = "A Python package for geospatial time series forecasting"
+authors = [
+    { name = "Ryan Bieber", email = "ryan.biebe@protonmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "nbformat>=5.10.4",
+    "notebook>=7.4.2",
+    "numpy>=2.2.5",
+    "pandera>=0.23.1",
+    "pip>=25.1.1",
+    "plotly>=6.0.1",
+    "polars>=1.29.0",
+    "prophet>=1.1.6",
+    "pyarrow>=20.0.0",
+    "scipy>=1.15.3",
+]
